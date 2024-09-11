@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./templates/**/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'Chakra Petch':['Chakra Petch']
+
+      }
+    },
   },
   plugins: [],
 }
